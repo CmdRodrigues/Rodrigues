@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre História</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link do arquivo de estilo -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de História</h1>
+        <div id="quiz"> <!-- As perguntas vão aparecer aqui -->
+        </div>
+        <button id="submit-btn">Submeter</button> <!-- Botão para enviar as respostas -->
+        <div id="result"></div> <!-- Resultado do quiz -->
+    </div>
+
+    <script src="script.js"></script> <!-- Conecta o código JS -->
+</body>
+</html>
